@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MDP_CVBuilderApp</string>
+
+
+    <string name="logout">Logout</string>
+
+    <string name="login_title">Sign In</string>
+    <string name="login_email">Username</string>
+    <string name="login_password">Password</string>
+
+
+    <!--   Home Fragment -->
+    <string name="exp_summary">Experience Summary</string>
+    <string name="exp_summary_note">A hard worker Experienced software developer with 5 years of professional experience in software development, testing, and networking. eager to join a creative, problem-solving team and I enjoy creating efficient solutions and working with innovative. As technologies are changing on a daily basis, I am always motivated to learn and adapt to new technology. My areas of interest are Angular, Spring, Spring Boot, Hibernate, Node, and Express. I can deliver quality results quickly and effectively</string>
+    <string name="skill_label">Knowledge/Skill</string>
+    <string name="skills">Languages: Java, Python, JavaScript\n Web Services: REST,SOAP, Microservices\n Technologies: Kafka, Spring Frame work, Kubernetes, Jenkins,GCP \n Design Patterns: Dependency Injection, Adapter,Factory \n</string>
+    <string name="projects">1.IVR:Interactive voice response or IVR is an automated business phone system feature that interacts with callers and gathers information by giving them choices via a menu.\n 2.LMS :A laboratory management system is a web based software system to improve school lab productivity and efficiency, by keeping track of students , experiments, laboratory workflows, and instruments.\n 3. ODAT: Object detection and Tracking is an artificial intelligent based project and the main goal is to track the object and log the location.\n 4.CTS: Car Tracking System is a web based system that help to track car and display the current location of the car in the google map.\n</string>
+    <string name="projects_label">Projects</string>
+    <string name="home_menu">Home</string>
+    <string name="full_name">Elias Teshome</string>
+    <string name="software_engineer">Software Engineer</string>
+
+
+    <!--  dialog_work-->
+    <string name="work_experience">Work Experience</string>
+
+
+    <!--work Fragment-->
+   <string name="intern">Internship</string>
+    <string name="icog">Icog</string>
+    <string name="vole">Volunteer Activity</string>
+    <string name="ears">EARS-Ethiopia Amateur Radio Society</string>
+    <string name="kforce">Kforce</string>
+    <string name="backend">Sr Software Engineer</string>
+    <string name="feb_2022">feb/2022 - may/2022</string>
+    <string name="Photon">Photon</string>
+    <string name="back">Sr Software Engineer</string>
+    <string name="sep_2022">sep/2022-current</string>
+    <string name="work_menu">Work</string>
+
+    <string name="woldia">Woldia Institute of Technology</string>
+    <string name="lecturer">Assistant Lecturer</string>
+    <string name="sep_2019">sep/2019-apr/2021</string>
+
+
+
+
+
+
+
+    <!--login Activity-->
+
+    <string name="username">elias</string>
+    <string name="password">123</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">add</string>
+    <string name="add_work">Add Work</string>
+
+
+     <!--Contact Fragment-->
+    <string name="my_contact">My Contact</string>
+    <string name="phone">Phone</string>
+    <string name="mynumber">641-451-9137</string>
+    <string name="email">Email</string>
+    <string name="email_account">eteshome@miu.edu</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="my_linkedIn">elias-girma</string>
+    <string name="github">GitHub</string>
+    <string name="git">elias-teshome</string>
+    <string name="contact_tab">Contact</string>
+    <string name="my_phone_number">tel:6414519137</string>
+    <string name="email_subject">from CV Builder App</string>
+    <string name="email_body">Please, reach out to me for more information about my app.</string>
+    <string name="my_linkedin_account">https://www.linkedin.com/in/elias-girma/</string>
+    <string name="my_github_account">https://github.com/elias-teshome/</string>
+
+      <!--about me-->
+
+    <string name="about_me_label">About Me</string>
+    <string name="about_me">A hard worker Experienced software developer with 5 years of professional experience in software development, testing, and networking. eager to join a creative, problem-solving team and I enjoy creating efficient solutions and working with innovative. As technologies are changing on a daily basis, I am always motivated to learn and adapt to new technology. My areas of interest are Angular, Spring, Spring Boot, Hibernate, Node, and Express. I can deliver quality results quickly and effectively</string>
+    <string name="education">My Education</string>
+    <string name="maharishiinternationaluniversity">Maharishi International University</string>
+    <string name="masterofscienceincomputerscience">Master of Science in Computer Science</string>
+    <string name="aau_university">Addis Ababa University</string>
+    <string name="bachelorsofscienceinelectricalEngineering">Bachelors of Science in Electrical Engineering</string>
+    <string name="certification">My Certification</string>
+    <string name="huw">Huawei</string>
+    <string name="h_8_8_2018">8/8/2018 completed</string>
+    <string name="python">Python</string>
+    <string name="p_6_3_2019">6/3/2019 completed</string>
+    <string name="c">C#</string>
+    <string name="c_9_3_2020">9/3/2020 completed</string>
+    <string name="react">React</string>
+    <string name="r_1_20_2021">1/20/2021 completed</string>
+    <string name="aws">AWS</string>
+    <string name="a_2_9_2022">2/9/2022 completed</string>
+
+
+
+
+
+</resources>

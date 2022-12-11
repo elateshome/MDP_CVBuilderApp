@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/linkedin"
+        android:title="LinkedIn"
+        android:icon="@drawable/linked"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/whatsup"
+        android:title="Whatsup"
+        android:icon="@drawable/wa"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/dail"
+        android:title="Call"
+        android:icon="@drawable/phone"
+        />
+
+
+    <item android:id="@+id/email"
+        android:title="Email"
+        android:icon="@drawable/mail"
+
+        />
+    <item
+        android:id="@+id/menu_main_logout"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/logout"
+        android:title="@string/logout" />
+
+</menu>
