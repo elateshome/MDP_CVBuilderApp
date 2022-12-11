@@ -22,7 +22,7 @@ class WorkAdapter(val context: Context, val list: MutableList<Work>) :
     override fun onBindViewHolder(baseViewHolder: MyViewHolder, i: Int) {
         baseViewHolder.onBind(i)
     }
-
+ //size of the array
     override fun getItemCount(): Int = list.size
 
     inner class ViewHolder(view: View?) : MyViewHolder(view) {
