@@ -15,13 +15,13 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private var sharedPref: SharedPreferences = SharedPreferenceUtils.getSharedPref()
+    private lateinit var sharedPref: SharedPreferences
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val user = SharedPreferenceUtils.getPref(getString(R.string.username))
+        val user = SharedPreferenceUtils.getPrefByKey(getString(R.string.username))
 
         /*An Adapter object acts as a bridge between an AdapterView and the data for that view*/
 

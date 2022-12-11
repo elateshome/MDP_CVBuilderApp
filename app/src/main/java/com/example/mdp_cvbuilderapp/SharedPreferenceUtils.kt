@@ -8,16 +8,13 @@ private lateinit var sharedPref: SharedPreferences
 class SharedPreferenceUtils{
     companion object {
         @JvmStatic
-        fun setPref(activity: LoginActivity): SharedPreferences {
+        fun setSharedPref(activity: LoginActivity): SharedPreferences {
             sharedPref = activity.getPreferences(Context.MODE_PRIVATE)
             return sharedPref
         }
 
-        fun getSharedPref(): SharedPreferences {
-            return sharedPref
-        }
 
-        fun getPref(key: String): String? {
+        fun getPrefByKey(key: String): String? {
             return sharedPref.getString(key, "")
         }
 

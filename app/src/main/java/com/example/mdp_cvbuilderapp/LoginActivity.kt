@@ -21,10 +21,10 @@ class LoginActivity : AppCompatActivity() {
          that returns a SharedPreference instance pointing to the file that contains
          the values of preferences.
        */
-        sharedPref = SharedPreferenceUtils.setPref(this)
+        sharedPref = SharedPreferenceUtils.setSharedPref(this)
 
-        val user = SharedPreferenceUtils.getPref(getString(R.string.username))
-        val pass = SharedPreferenceUtils.getPref(getString(R.string.password))
+        val user = SharedPreferenceUtils.getPrefByKey(getString(R.string.username))
+        val pass = SharedPreferenceUtils.getPrefByKey(getString(R.string.password))
         user?.let { binding.email.setText(it) }
         pass?.let { binding.pass.setText(it) }
 
